@@ -1,0 +1,8 @@
+name: " "
+output_dir: "docs"
+navbar:
+  title: "Modelos Estadísticos para la toma de decisiones"
+
+output:
+  html_document:
+    css: style.css
