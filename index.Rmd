@@ -35,7 +35,7 @@ Una empresa inmobiliaria líder en una gran ciudad está buscando comprender en 
 
 Base de datos y variables:
 ```{r, eval=FALSE}
-library(paqueteMOD)
+library(paqueteMODODELOS)
 data(vivenda)
 str(vivienda)
 ```
