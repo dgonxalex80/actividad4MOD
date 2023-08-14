@@ -75,7 +75,7 @@ El reto principal consisten en realizar un análisis integral y multidimensional
 
 </br>
 
-3. **Análisis de Correspondencia** : Examinar la relación entre las variables categóricas (tipo de vivienda, zona y barrio) y las variables numéricas (precio, área construida, número de parqueaderos, baños, habitaciones) para identificar patrones de comportamiento del mercado inmobiliario.
+3. **Análisis de Correspondencia** : Examinar la relación entre las variables categóricas (tipo de vivienda, zona y barrio), para identificar patrones de comportamiento del mercado inmobiliario.
 
 </br>
 
@@ -91,7 +91,7 @@ El informe final debe incluir análisis detallados de los resultados obtenidos, 
 
 # <span style="color:#034a94">**Entregable**</span>
 
-Enlace de informe publicado en RPubs escrito en RMarkdown
+Enlace de informe publicado en **RPubs** escrito en RMarkdown
 
 
 
