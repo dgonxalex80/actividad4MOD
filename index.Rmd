@@ -1,8 +1,10 @@
 ---
 title: <span style="color:#034a94"> **Actividad 1**</span>
+author: "Modelos Estadísticos para la toma de decisiones"
 output:
-html_document:
-css: styles.css
+  html_document:
+    code_folding: hide
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +20,7 @@ c4 ="#686868"  # gris - color texto
 
 </br></br>
 
-# <span style="color:#034a94">**Evaluación del mercado inmobiliario urbano**</span>
+# <span style="color:#034a94">**Evaluación de la oferta inmobiliaria urbana**</span>
 
 </br>
 
@@ -33,9 +35,11 @@ Una empresa inmobiliaria líder en una gran ciudad está buscando comprender en 
 
 </br></br>
 
-Base de datos y variables:
+Base de datos y variables
+
 ```{r, eval=FALSE}
-library(paqueteMODODELOS)
+# devtools::install_github("dgonxalex80/paqueteMODELOS", force = TRUE)
+library(paqueteMODELOS)
 data(vivenda)
 str(vivienda)
 ```
@@ -67,15 +71,16 @@ str(vivienda)
 El reto principal consisten en realizar un análisis integral y multidimensional de la base de datos para obtener una comprensión del mercado inmobiliario urbano. Se requiere aplicar diversas técnicas de análisis de datos, incluyendo:
 
 </br>
-1. **Análisis de Componentes Principales**: Reducir la dimensionalidad del conjunto de datos y visualizar la estructura de las variables en componentes principales para identificar características clave que influyen en la variación de precios y preferencias del mercado.
+
+1. **Análisis de Componentes Principales**: Reducir la dimensionalidad del conjunto de datos y visualizar la estructura de las variables en componentes principales para identificar características clave que influyen en la variación de precios y oferta del mercado.
 
 </br>
 
-2. **Análisis de Conglomerados**: Agrupar las propiedades residenciales en segmentos homogéneos con características similares para entender las dinámicas y demandas específicas en diferentes partes de la ciudad y en diferentes estratos socioeconómicos.
+2. **Análisis de Conglomerados**: Agrupar las propiedades residenciales en segmentos homogéneos con características similares para entender las dinámicas de las ofertas específicas en diferentes partes de la ciudad y en diferentes estratos socioeconómicos.
 
 </br>
 
-3. **Análisis de Correspondencia** : Examinar la relación entre las variables categóricas (tipo de vivienda, zona y barrio), para identificar patrones de comportamiento del mercado inmobiliario.
+3. **Análisis de Correspondencia** : Examinar la relación entre las variables categóricas (tipo de vivienda, zona y barrio), para identificar patrones de comportamiento de la  oferta en mercado inmobiliario.
 
 </br>
 
